@@ -98,6 +98,12 @@ mode the push is disabled, and the previews show exactly what *would* be written
 
 ### Feedback loop (F15–F16)
 
+![The evals sheet in demo mode — a two-case suite run against the compiled OpenClaw spec, both passing, with a run-history strip and per-case judge reasoning.](docs/assets/evals.png)
+
+*Measuring the compiled spec: a recall probe and a skill test run against the OpenClaw
+build, scored deterministically before the judge. Both pass; the history strip records
+each run, and any failure opens a refine interview seeded with what measured wrong.*
+
 - **Context backfeed** — the return arc. Every push records a hash ledger of what was
   written; "Check for harness updates…" then detects drift deterministically (memories
   the agent wrote, edited instruction files) and an LLM distills each item into a

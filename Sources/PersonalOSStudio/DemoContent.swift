@@ -369,7 +369,7 @@ enum DemoContent {
 
             ## Entry
 
-            Biscuit's favorite toy is the squeaky carrot that lives in the basket by the studio door. Use it for morale moments and end-of-sprint celebrations. Do not substitute the tennis ball; Biscuit knows the difference.
+            Biscuit's favorite toy is the squeaky carrot that lives in the basket by the studio door. Use it for morale moments and end-of-sprint celebrations. No other toy will do; Biscuit knows the difference.
 
             ## Source
 
