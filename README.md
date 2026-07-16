@@ -10,6 +10,13 @@ The roadmap through F18 (see [`docs/roadmap/`](docs/roadmap/README.md)) is compl
 the full train → measure → refine loop ships, plus demo mode and the enterprise
 sharing loop. For product positioning see [`docs/MARKETING.md`](docs/MARKETING.md).
 
+![Personal OS Studio in demo mode — the six canonical layers in the sidebar with an identity file open, each file classified PII / Enterprise / Public.](docs/assets/screenshot.png)
+
+*Above: demo mode — a complete, fictional personal OS (Orbit Labs' creative director and
+her agent Beacon). The sidebar holds the six canonical layers; the open identity file
+carries its own PII classification banner. Every harness-delivery path is disabled and no
+real data is shown.*
+
 ## The loop
 
 ```
