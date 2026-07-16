@@ -36,6 +36,12 @@ with failures seeding the refine interview that updates the definitions.
 
 ### Compile & push (F01–F04, F12)
 
+![The compile step in demo mode — checked canonical layers on the left compile into OpenClaw's generated files (SOUL.md, AGENTS.md, per-skill SKILL.md, MEMORY.md) on the right, each with byte sizes and provenance. The push button is disabled in demo mode.](docs/assets/compile.png)
+
+*Compiling the Orbit Labs OS to OpenClaw: canonical layers (left) become the harness's
+generated files (right) — each showing which source it came from and its size. In demo
+mode the push is disabled, and the previews show exactly what *would* be written.*
+
 - **Pluggable adapter framework** — one pipeline, per-harness adapters implementing the
   specs in `agent_os/adapters/*.md`. Every artifact carries provenance (owner, version,
   reviewed, designation); every push previews, confirms, and backs up (`.bak-studio`).
