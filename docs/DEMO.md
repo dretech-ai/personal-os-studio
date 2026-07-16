@@ -46,18 +46,18 @@ each file tagged **PII / Enterprise / Public**.
 ## 2 · What the content looks like (4 min — this is the heart of the demo)
 
 🎬 Open `identity/identity.md`: agent identity (Beacon), user profile ("never
-'Mr. Mouse'"), **Operating Principles** ("Never spoil the magic"), **Boundaries**
-("never announce unannounced titles", "never reveal how the Forge works"), **Escalation** ("ask
+'Ms. Reyes'"), **Operating Principles** ("The playtest is the source of truth"), **Boundaries**
+("never announce an unannounced title", "never schedule before 11am"), **Escalation** ("ask
 Priya before changing the schedule; build/pipeline issues go to Marcus").
 
 **Say:** "This is the shape of it: durable rules, not prompts. Note the file explains
-its own classification — identity is *always* PII by schema rule, even for a mouse."
+its own classification — identity is *always* PII by schema rule, even for a fictional persona."
 
 🎬 Quick flips: `context/team.md` (Priya owns ops, Marcus is 'brilliant,
 temperamental, keep tasks short', Biscuit is morale officer) → a skill,
 `skills/plan-a-playtest.md` — point at **Trigger → Procedure → Test Plan** ("the
 Test Plan gets *executed* later, hold that thought") → `memory/MEMORY.md` index +
-`pluto-favorite-bone.md` (a typed memory entry with a recall hook).
+`biscuit-favorite-toy.md` (a typed memory entry with a recall hook).
 
 **Say:** "Six layers, one schema each, versioned with change logs, all plain Markdown
 in a git repo — readable, diffable, yours. No lock-in."
