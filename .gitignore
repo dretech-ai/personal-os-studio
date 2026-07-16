@@ -1,0 +1,10 @@
+.build/
+dist/
+*.icns
+dist/*.png
+
+# RTK local cache/config
+.rtk/
+
+# macOS
+.DS_Store

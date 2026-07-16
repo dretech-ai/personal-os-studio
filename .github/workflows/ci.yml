@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Swift version
+        run: swift --version
+      - name: Build
+        run: swift build
+      # The self-contained suites scaffold their own scratch repos — no external
+      # canonical checkout needed. (Adapter-mapping tests + the --selftest golden
+      # master require a canonical Agent OS repo alongside; run those locally.)
+      - name: Headless self-tests
+        run: |
+          BIN=".build/debug/PersonalOSStudio"
+          for t in scaffoldtest gittest migratetest multidoctest difftest \
+                   vaulttest backfeedtest evaltest enterprisetest demotest; do
+            echo "== --$t =="
+            "$BIN" --$t
+          done
